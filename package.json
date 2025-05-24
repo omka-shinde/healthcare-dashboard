@@ -1,9 +1,9 @@
 {
+  "homepage": "https://omka-shinde.github.io/healthcare-dashboard",
   "name": "healthcare-dashboard",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://omka-shinde.github.io/healthcare-dashboard",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
