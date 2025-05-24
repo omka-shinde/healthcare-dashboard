@@ -1,0 +1,62 @@
+.activity-feed {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-header h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+.subtext {
+  font-size: 12px;
+  color: #888;
+}
+
+.activity-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bar-wrapper {
+  background: #f1f3f7;
+  height: 100px;
+  width: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.bar {
+  width: 100%;
+  background: linear-gradient(to top, #3f72af, #73c2fb);
+  border-radius: 10px 10px 0 0;
+  transition: 0.3s ease;
+}
+
+.day-label {
+  font-size: 12px;
+  margin-top: 6px;
+  color: #666;
+}

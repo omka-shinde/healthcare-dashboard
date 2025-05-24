@@ -1,0 +1,42 @@
+.anatomy-section {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.anatomy-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.section-header h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.anatomy-image-container {
+  position: relative;
+  text-align: center;
+}
+
+.anatomy-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.health-indicator {
+  position: absolute;
+  padding: 4px 8px;
+  background: #fff;
+  border: 2px solid;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
